@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    font-family: 'open-sans', sans-serif;
+}
+
+/* Header and navigation */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    align-items: center;
+    margin: 0px 50px;
+    padding-top: 25px;
+}
+
+.text_theme{
+    color: rgb(84, 84, 131)
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px ;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.nav_ul > li:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+nav li{
+    list-style: none;
+    text-decoration: none;
+    margin: 40px;
+    
+    
+}
+
+.btn-primary{
+    width: 150px;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 1px;
+    background-color: rgb(63, 63, 119);
+    color: white;
+    padding: 18 35px;
+
+}
+.btn-primary > a{
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: rgb(212, 212, 235);
+    color: black;
+    transition: 0.5s;
+}
+
+.cv:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+
+.banner{
+    margin: 0 20px 0 100px;
+    display: flex;
+    align-items: center;
+}
+.banner-name{
+    font-size: 55px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.banner-description{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.header{
+    background-color: rgb(226, 226, 238);
+}
+
+.myself{
+    position: relative;
+    background-image: url('../images/header_bg_blue.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 0 100px;
+}
+
+.myself img{
+    position:relative;
+    right: 0;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    margin: 130px 20px 0px 100px;
+    align-items: center;
+    background-color: rgb(226, 226, 238);
+    padding: 50px 80px;
+}
+
+section:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.education{
+    margin: 130px 20px 0px 100px;
+    align-items: center;
+    background-color: rgb(226, 226, 238);
+    padding: 50px 80px;
+}
+.education:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.edu_table{
+    margin: 30px 20px 0px 0px;
+    
+}
+.edu_table td, th{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.section_title{
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+
+.about:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.about_description{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align:justify;
+}
+
+.personal_info{
+    display: flex;
+    padding-left: 15px;
+    
+}
+
+.imgtxt{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.personal_info > .section_title{
+    margin-right: 70px;
+    margin-left: 20px;
+}
+.personal_info_container_left_item_title_logo{
+    padding-left: 5px;
+    
+}
+
+.socials{
+    font-style: oblique;
+    font-weight: 600;
+    color: royalblue;
+}
+
+.socials:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.personal_info_container_left_item{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align:justify;
+}
+
+
+
+.skills{
+    background-color: white;
+    margin-top: 30px;
+}
+
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px ;
+}
+
+.skills-container > div {
+    width: calc(25% );
+    margin-bottom: 20px;
+}
+
+.skill{
+    background-color: rgb(242, 242, 247);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.skill >img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.skill:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.skill-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.skill-description{
+    color: #474646;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.experience_section{
+    background-color: rgb(226, 226, 238);
+    margin: 15px 20px 0 100px;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+.experience{
+    padding: 20px 20px;
+    margin: 30px 10px 0 10px;
+}
+
+.experience:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.job-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.job-description{
+    color: #474646;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align:justify;
+
+}
+
+
+.organisation a {
+    text-decoration: none;
+    color:darkslategrey;
+}
+
+.organisation:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.date{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 10px;
+   
+}
+
+
+.research{
+    background-color: rgb(226, 226, 238);
+    margin: 15px 20px 0 20px;
+    align-items: center;
+    padding: 50px 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.certificates > li {
+    margin: 40px 0px;
+    font-size: 18px;
+}
+
+.certificates > li > b{
+    font-style: oblique;
+}
+
+.extracurriculars >li{
+    margin: 30px 0px;
+    font-size: 18px;
+}
+
+.reference > p{
+    margin: 30px 0px;
+    font-size: 18px;
+}
+
+.reference > p > a{
+    text-decoration: none;
+    color:darkslategrey;
+}
+.reference:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.email:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact .section-title{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact{
+    background-color: rgb(226, 226, 238);
+
+    align-items: center;
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    margin: 20px 10px 10px 0px;
+}
+
+.logo:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}   

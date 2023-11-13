@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script>
+        function scrollToSection(id) {
+            window.location.hash = id;
+ }
+    function contactMe() {
+        alert("Please email me at raihanrifat222@gmail.com or contact me by calling at +8801820069443");
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h2 class="nav-title">Raihanul <span class="text_theme">Islam</span></h2>
+            <ul class="nav_ul">
+                <li onclick="scrollToSection('contact')">Contact</li>
+                <li onclick="scrollToSection('skills')">Skills</li>
+                <li onclick="scrollToSection('experience')">Experience</li>
+                <li><button class="btn-primary" onclick="contactMe()">Hire</button></li>
+            </ul>
+        </nav>
+
+        <!-- banner -->
+
+        <div class="banner">
+            <div>
+                <h3 class="banner-description">Hi, I am </h3> 
+                <h2 class="banner-name">Md Raihanul Islam Bhuiyan</h2> 
+                <p class="banner-description"> I am a fresh computer science graduate from BRAC University, Dhaka, Bangladesh. In this portfolio, you can find all the informations about me.</p>
+                <button class="btn-primary"> <a href="https://drive.google.com/file/d/14_QWxvAeOd_ilW6f1jVV1LTVvKqtp7xb/view?usp=sharing" class="cv">Download CV</a></button>
+            </div >
+
+            <div class="myself">
+                <img  src="images/raihan_c.png" sizes="50px" alt="">
+
+            </div>
+            </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2 class="section_title">About Me</h2>
+            <div class="about_container">
+                
+                <div class="about_description">
+                    <p>Hi, I am Raihanul Islam Bhuiyan. I have interest in Software Development and Machine Learning / Deep Learning. I have experiene using different machine learning models and other python libraries like Opencv, matplotlib, etc. I am looking forward to gain industry experience by working on professional projects. Currently, I am brushing up my frontend skills using HTML, CSS and ReactJs. </p>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="personal_info" id="contact">
+            <h2 class="section_title">Personal Informations</h2>
+            <div class="personal_info_container">
+                <div class="personal_info_container_left">
+                    <div class="personal_info_container_left_item">
+                        <h3 class="personal_info_container_left_item_title">Name</h3>
+                        <p class="personal_info_container_left_item_description">Md Raihanul Islam Bhuiyan</p>
+                    </div>
+
+                    <div class="personal_info_container_left_item">
+                        <h3 class="personal_info_container_left_item_title">Date of Birth</h3>
+                        <p class="personal_info_container_left_item_description">1st December, 2000</p>
+                    </div>
+                    
+                    <div class="personal_info_container_left_item">
+                        <h3 class="personal_info_container_left_item_title">Address</h3>
+                        <p class="personal_info_container_left_item_description">South Banasree, Khilgaon, Dhaka, Bangladesh</p>
+                    </div>
+
+                    <div class="personal_info_container_left_item">
+                        <h3 class="personal_info_container_left_item_title">Email</h3>
+                        <p class="personal_info_container_left_item_description">raihanrifat222@gmail.com </p>
+                    </div>
+
+                    <div class="personal_info_container_left_item">
+                        <h3 class="personal_info_container_left_item_title">Contact</h3>
+                        <p class="personal_info_container_left_item_description">+8801820069443 </p>
+                    </div>
+
+                    <div class="personal_info_container_left_item">
+                        <div class="imgtxt">
+                            <img src="images/icons/linkedin.png" alt="" height="30px" width="30px">
+                            <h3 class="personal_info_container_left_item_title_logo">Linkedin</h3>
+                        </div>
+                        
+                        <p><a href="https://www.linkedin.com/in/raihanrifat222/" class="socials">Md Raihanul Islam Bhuiyan</a></p>
+                    </div>
+
+                    <div class="personal_info_container_left_item">
+                        <div class="imgtxt">
+                            <img src="images/icons/github.png" alt="" height="30px" width="30px">
+                        <h3 class="personal_info_container_left_item_title_logo">Github</h3>
+                        </div>
+                        
+                        <p><a href="https://github.com/RaihanRifat222" class="socials"> RaihanRifat222 </a></p>
+                    </div>
+                        
+                            
+                    
+        </section>
+        <section class="education">
+            <h2 class="section_title">Education</h2>
+            <table style="border-collapse: collapse;" class="edu_table">
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Major</th>
+                    <th>Session</th>
+                    <th>Result</th>
+                    <th>Scale</th>
+                </tr>
+                <tr>
+                    <td>Bachelors of 
+                        Science</td>
+                    <td>BRAC University </td>
+                    <td>Computer 
+                        Science</td>
+                    <td>2020 - 2023 </td>
+                    <td>3.76</td>
+                    <td>4.00
+                    </td>
+                </tr>
+                <tr>
+                    <td>Higher Secondary 
+                        Certificate
+                        </td>
+                    <td>Dhaka Imperial 
+                        College</td>
+                    <td>Science </td>
+                    <td>2017-2019</td>
+                    <td>4.00</td>
+                    <td>5.00</td>
+                </tr>
+                <tr>
+                    <td>Secondary School
+                        Certificate
+                        </td>
+                    <td>Faizur Rahman 
+                        Ideal Institute
+                        </td>
+                    <td>Science</td>
+                    <td>2015-2017</td>
+                    <td>5.00</td>
+                    <td>5.00</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="section_title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="images/icons/python.png" alt="">
+                    <p class="skill-title">Python</p>
+                        <p class="skill-description"> I have learnt Python from my university lectures and I have practiced various data structures and libraries of Python. Furthermore, I have solved complex problems using data structures and algorithms in Python. Also, I have learnt using different Image Processing techniques in Python using the documentations.  </p>
+                    
+                </div>
+                <div class="skill">
+                    <img src="images/icons/machine-learning.png" alt="">
+                    <p class="skill-title">Machine Learning</p>
+                        <p class="skill-description">Since Python was taught at my university, I used this knowledge to learn different classification and regression machine learning algorithms like linear regression, logistic regression, decision trees, naive bayes etc. Furthermore, for my university thesis, I have used different deep learning algorithms such as CNN, YOLO, VGG-16 etc. I have also applied multiple pre-processing steps before applying the algorithms. </p>
+                    
+                </div>
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <p class="skill-title">JavaScript</p>
+                        <p class="skill-description">I have learnt JavaScript through several online resources, such as YouTube, documentations etc. I have also created a few projects using ReactJS. Currently, I am learning MERN Stack development.</p>
+                    
+                </div>
+                
+                <div class="skill">
+                    <img src="images/icons/html.png" alt="">
+                    <p class="skill-title">HTML</p>
+                        <p class="skill-description">HTML was taught in my Higher Secondary School. After my graduation, I brushed up my HTML skills using sources like w3schools and practiced it.</p>
+                    
+                </div>
+                <div class="skill">
+                    <img src="images/icons/css.png" alt="">
+                    <p class="skill-title">CSS</p>
+                        <p class="skill-description">CSS is also one of my self learned skills, which I have gained from multiple free resources from the Internet.</p>
+                    
+                </div>
+                
+                <div class="skill">
+                    <img src="images/icons/mysql.png" alt="">
+                    <p class="skill-title">MySQL</p>
+                        <p class="skill-description">SQL Queries were introduced to me by my university and I have created several relational databases using SQL queries.</p>
+                    
+                </div>
+            </div>
+        
+        </section>
+
+        <section class="experience_section" id="experience">
+            <h2 class="section_title">Experience</h2>
+            <div class="experience-container">
+                <div class="experience">
+                    <h3 class="job-title">Student Tutor </h3> 
+                    <p >Physics, MNS Department, <b class="organisation"><a href="https://www.bracu.ac.bd/">BRAC University</a></b> <span class="date"> (September 2022 - September 2023) </span> </p>
+                    <p >
+                        <ul class="job-description"> 
+                            <li> Assist the university students in understanding
+                                Physics class lectures</li>
+                            <li>Assisted the faculty members in grading 
+                                assignment scripts.</li>
+                        </ul>
+                    </p>
+                    <hr>
+                </div>
+                <div class="experience">
+                    <h3 class="job-title">Programming Instructor</h3>
+                    <p ><b class="organisation"><a href="https://www.coderstrust.net/public/course-details/python_for_beginners">CodersTrust,</a></b> Dhaka, Bangladesh <span class="date"> (August 2022 - October 2022) </span></p>
+                    <p >
+                        <ul class="job-description"> 
+                            <li> Created lecture videos explaining the basics of 
+                                Python.</li>
+                            <li>Researched different methodologies of teaching Python to beginners</li>
+                        </ul>
+                    </p>
+                    <hr>
+                </div>
+                <div class="experience">
+                    <h3 class="job-title">Home Tutor</h3>
+                    <p ><b class="organisation"><a href="https://caretutors.com/">Caretutors,</a></b> Dhaka, Bangladesh <span class="date"> (November 2020 - November 2022) </span></p>
+                    <p >
+                        <ul class="job-description"> 
+                            <li> Created lecture videos explaining the basics of 
+                                Python.</li>
+                            <li>Researched different methodologies of teaching Python to beginners</li>
+                        </ul>
+                    </p>
+                    <hr>
+                </div>
+            </div>
+        </section>
+
+        <section class="research-works">
+            <h2 class="section_title">Research Work</h2>
+            <div class="research">
+                <p>Segmentation of Bangla Compound Characters to Detect Handwritten Characters using 
+                    YOLOv8.
+                    </p>
+            </div>
+            <hr>
+        </section>
+
+        <section class="certifications">
+            <h2 class="section_title">Certifications</h2>
+            <ul class="certificates">
+                <li> <b>Programming Languages:</b> Python</li>
+                <li><b>IELTS Certification</b> Overall score: 7.5 | CEFR LEVEL: C1 
+                    Listening: 8.0 | Reading: 7.5 | Writing: 7.0 | Speaking: 7.0
+                   </li>
+                <li><b>Web Development:
+                </b> Introduction to Web Development
+                </li>
+
+                <li><b>Machine Learning:</b> "Hands-on Workshop on Machine Learning"</li>
+            </ul>
+
+            <hr>
+        </section>
+
+        <section class="extracurricular">
+            <h2 class="section_title">Extracurricular Activities</h2>
+            <ul class="extracurriculars">
+                <li> Financial Secretary BRAC University Computer Club <span class="date">(2020-2023)</span></li>
+                <li>Junior Executive, Robotics Club of Brac University <span class="date">(2020-2021)</span>
+                   </li>
+                <li>Volunteer, 15th Convocation of BRAC University <span class="date">(2023)</span>
+                </li>
+
+                <li>Executive, Hult Prize at BRAC University <span class="date">(2022)</span></li>
+                <li> Instructor, BUCC Study Corner <span class="date">(2021-2022)</span></li>
+            </ul>
+
+            <hr>
+        </section>
+
+        <section class="references">
+            <h2 class="section-title"> References</h2>
+            <br>
+            <hr>
+            <div class="reference">
+                <p>Muhammad Iqbal Hossain,</p>
+                <p>Associate Professor,</p>
+                <p>Computer Science and Engineering Department, BRAC University
+                </p>
+
+                 <p><a href="iqbal.hossain@bracu.ac.bd
+                    " class="email">iqbal.hossain@bracu.ac.bd
+                </a></p>
+
+            </div>
+<hr>
+            <div class="reference">
+                <p>Annajiat Alim Rasel,</p>
+                <p>Senior Lecturer,</p>
+                <p>Computer Science and Engineering Department, BRAC University
+                </p>
+
+                 <p><a href="annajiat@bracu.ac.bd" class="email">annajiat@bracu.ac.bd
+                </a></p>
+                
+            </div>
+        </section>
+        <section class="contact">
+            <div class="connect">
+                <h3 class="section-title">Let's Connect</h3>
+                <p>Feel free to contact me via LinkedIn or Email for any queries.</p>
+
+                <div class="logos">
+                    <a  href="https://www.linkedin.com/in/raihanrifat222/"><img class="logo" src="images/icons/linkedin.png" alt=""></a>
+                    <a  href="mailto:raihanrifat222@gmail.com"><img class="logo" src="images/icons/gmail.png" alt=""></a>
+
+                    <a  href="https://github.com/RaihanRifat222"><img class="logo" src="images/icons/github.png" alt=""></a>
+
+
+                </div>
+                
+            </div>
+            <div class="download-cv">
+                <button class="btn-primary"> <a href="https://drive.google.com/file/d/14_QWxvAeOd_ilW6f1jVV1LTVvKqtp7xb/view?usp=sharing" class="cv">Download CV</a></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
